@@ -1,0 +1,7 @@
+<launch>
+    <node 
+    name="gravcomp_torques"
+    pkg="interbotix_xsarm_gazebo"
+    type="gravcomp_torques"
+    output="screen"/>
+</launch>

@@ -2,8 +2,7 @@ port: /dev/ttyUSB0
 
 groups:
   arm:
-    torque_enable: false
+    operating_mode: current
+  gripper: 
+    operating_mode: current
 
-singles:
-  gripper:
-    torque_enable: false

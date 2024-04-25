@@ -1,0 +1,15 @@
+arm:
+  K_t: 1.1555 # estimated motor-torque conversion constant 
+              # Kt for different motors (estimated): XL 430-250: 0.8780; XM 430-350: 1.6273; XM 430-210-R: 1.1555
+  K_p: 10     # P gain
+  K_d: 0.1      # D gain
+
+  K: 0        # damping term
+
+gripper:
+  K_t: 1.1555 # estimated motor-torque conversion constant 
+
+  K_p: 00      # P gain
+  K_d: 0      # D gain
+
+  K: 0        # damping term
