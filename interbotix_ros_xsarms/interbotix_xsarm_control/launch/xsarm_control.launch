@@ -17,7 +17,7 @@
   <arg name="xs_sdk_type" value="xs_sdk" unless="$(arg use_sim)"/>
   <arg name="xs_sdk_type" value="xs_sdk_sim" if="$(arg use_sim)"/>
 
-  <include file="$(find interbotix_xsarm_descriptions)/launch/xsarm_description.launch">
+  <!-- <include file="$(find interbotix_xsarm_descriptions)/launch/xsarm_description.launch">
     <arg name="robot_model"                       value="$(arg robot_model)"/>
     <arg name="robot_name"                        value="$(arg robot_name)"/>
     <arg name="base_link_frame"                   value="$(arg base_link_frame)"/>
@@ -27,7 +27,7 @@
     <arg name="use_world_frame"                   value="$(arg use_world_frame)"/>
     <arg name="external_urdf_loc"                 value="$(arg external_urdf_loc)"/>
     <arg name="use_rviz"                          value="$(arg use_rviz)"/>
-  </include>
+  </include> -->
 
   <node
     name="xs_sdk"

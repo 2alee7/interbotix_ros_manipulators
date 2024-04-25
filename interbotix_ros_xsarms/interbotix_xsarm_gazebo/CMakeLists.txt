@@ -22,3 +22,20 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_package(
   CATKIN_DEPENDS controller_manager effort_controllers gazebo_ros gazebo_ros_control interbotix_xsarm_descriptions joint_state_controller joint_trajectory_controller
 )
+
+###########
+## Build ##
+###########
+
+## Specify additional locations of header files
+## Your package locations should be listed before other locations
+include_directories(
+  ${catkin_INCLUDE_DIRS}
+)
+
+## Declare a C++ executable
+## Specify libraries to link a library or executable target against
+## Add cmake target dependencies of the executable
+add_executable(gravcomp_torques src/gravcomp_torques.cpp)
+target_link_libraries(gravcomp_torques ${catkin_LIBRARIES})
+add_dependencies(gravcomp_torques ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})

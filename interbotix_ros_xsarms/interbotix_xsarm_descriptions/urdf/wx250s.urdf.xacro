@@ -37,12 +37,12 @@
       </geometry>
       <material name="interbotix_black"/>
     </visual>
-    <collision>
+    <!-- <collision>
       <origin rpy="0 0 ${pi/2}" xyz="0 0 0"/>
       <geometry>
         <mesh filename="package://interbotix_xsarm_descriptions/meshes/wx250s_meshes/wx250s_1_base.stl" scale="0.001 0.001 0.001"/>
       </geometry>
-    </collision>
+    </collision> -->
     <inertial>
       <origin rpy="0 0 ${pi/2}" xyz="-0.0380446000 0.0006138920 0.0193354000"/>
       <mass value="0.538736" />
@@ -77,12 +77,12 @@
       </geometry>
       <material name="interbotix_black"/>
     </visual>
-    <collision>
+    <!-- <collision>
       <origin rpy="0 0 ${pi/2}" xyz="0 0 -0.003"/>
       <geometry>
         <mesh filename="package://interbotix_xsarm_descriptions/meshes/wx250s_meshes/wx250s_2_shoulder.stl" scale="0.001 0.001 0.001"/>
       </geometry>
-    </collision>
+    </collision> -->
     <inertial>
       <origin rpy="0 0 ${pi/2}" xyz="0.0000223482 0.0000414609 0.0066287000"/>
       <mass value="0.480879" />
@@ -117,12 +117,12 @@
       </geometry>
       <material name="interbotix_black"/>
     </visual>
-    <collision>
+    <!-- <collision>
       <origin rpy="0 0 ${pi/2}" xyz="0 0 0"/>
       <geometry>
         <mesh filename="package://interbotix_xsarm_descriptions/meshes/wx250s_meshes/wx250s_3_upper_arm.stl" scale="0.001 0.001 0.001"/>
       </geometry>
-    </collision>
+    </collision> -->
     <inertial>
       <origin rpy="0 0 ${pi/2}" xyz="0.0171605000 0.0000002725 0.1913230000"/>
       <mass value="0.430811" />
@@ -157,12 +157,12 @@
       </geometry>
       <material name="interbotix_black"/>
     </visual>
-    <collision>
+    <!-- <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
         <mesh filename="package://interbotix_xsarm_descriptions/meshes/wx250s_meshes/wx250s_4_upper_forearm.stl" scale="0.001 0.001 0.001"/>
       </geometry>
-    </collision>
+    </collision> -->
     <inertial>
       <origin rpy="0 0 0" xyz="0.1079630000 0.0001158760 0"/>
       <mass value="0.234589" />
@@ -197,12 +197,12 @@
       </geometry>
       <material name="interbotix_black"/>
     </visual>
-    <collision>
+    <!-- <collision>
       <origin rpy="${pi} 0 0" xyz="0 0 0"/>
       <geometry>
         <mesh filename="package://interbotix_xsarm_descriptions/meshes/wx250s_meshes/wx250s_5_lower_forearm.stl" scale="0.001 0.001 0.001"/>
       </geometry>
-    </collision>
+    </collision> -->
     <inertial>
       <origin rpy="${pi} 0 0" xyz="0.0374395000 0.0052225200 0"/>
       <mass value="0.220991" />
@@ -237,12 +237,12 @@
       </geometry>
       <material name="interbotix_black"/>
     </visual>
-    <collision>
+    <!-- <collision>
       <origin rpy="0 0 ${pi/2}" xyz="0 0 0"/>
       <geometry>
         <mesh filename="package://interbotix_xsarm_descriptions/meshes/wx250s_meshes/wx250s_6_wrist.stl" scale="0.001 0.001 0.001"/>
       </geometry>
-    </collision>
+    </collision> -->
     <inertial>
       <origin rpy="0 0 ${pi/2}" xyz="0.0423600000 -0.0000106630 0.0105770000"/>
       <mass value="0.084957" />
@@ -277,12 +277,12 @@
       </geometry>
       <material name="interbotix_black"/>
     </visual>
-    <collision>
+    <!-- <collision>
       <origin rpy="0 0 ${pi/2}" xyz="-0.02 0 0"/>
       <geometry>
         <mesh filename="package://interbotix_xsarm_descriptions/meshes/wx250s_meshes/wx250s_7_gripper.stl" scale="0.001 0.001 0.001"/>
       </geometry>
-    </collision>
+    </collision> -->
     <inertial>
       <origin rpy="0 0 ${pi/2}" xyz="0.0216310000 0.0000002516 0.0114100000"/>
       <mass value="0.072885" />
@@ -331,12 +331,12 @@
       </geometry>
       <material name="interbotix_black"/>
     </visual>
-    <collision>
+    <!-- <collision>
       <origin rpy="0 0 ${pi/2}" xyz="-0.0685 0 0"/>
       <geometry>
         <mesh filename="package://interbotix_xsarm_descriptions/meshes/wx250s_meshes/wx250s_8_gripper_prop.stl" scale="0.001 0.001 0.001"/>
       </geometry>
-    </collision>
+    </collision> -->
     <inertial>
       <origin rpy="0 0 ${pi/2}" xyz="0.0008460000 -0.0000016817 0.0000420000"/>
       <mass value="0.00434" />
@@ -363,12 +363,12 @@
         </geometry>
         <material name="interbotix_black"/>
       </visual>
-      <collision>
+      <!-- <collision>
         <origin rpy="0 0 0" xyz="0 0 0"/>
         <geometry>
           <mesh filename="package://interbotix_xsarm_descriptions/meshes/wx250s_meshes/wx250s_11_ar_tag.stl" scale="0.001 0.001 0.001"/>
         </geometry>
-      </collision>
+      </collision> -->
       <inertial>
         <origin rpy="0 0 0" xyz="0 0 -0.00315"/>
         <mass value="0.016507"/>
@@ -397,12 +397,12 @@
         </geometry>
         <material name="interbotix_black"/>
       </visual>
-      <collision>
+      <!-- <collision>
         <origin rpy="0 0 ${pi/2}" xyz="-0.063 0 0"/>
         <geometry>
           <mesh filename="package://interbotix_xsarm_descriptions/meshes/wx250s_meshes/wx250s_9_gripper_bar.stl" scale="0.001 0.001 0.001"/>
         </geometry>
-      </collision>
+      </collision> -->
       <inertial>
         <origin rpy="0 0 ${pi/2}" xyz="0.0096870000 0.0000008177 0.0049620000"/>
         <mass value="0.034199" />
@@ -455,12 +455,12 @@
           </geometry>
           <material name="interbotix_black"/>
         </visual>
-        <collision>
+        <!-- <collision>
           <origin rpy="${pi} ${pi} 0" xyz="0 0.005 0"/>
           <geometry>
             <mesh filename="package://interbotix_xsarm_descriptions/meshes/wx250s_meshes/wx250s_10_gripper_finger.stl" scale="0.001 0.001 0.001"/>
           </geometry>
-        </collision>
+        </collision> -->
         <inertial>
           <origin rpy="${pi} ${pi} ${pi/2}" xyz="0.0138160000 0.0000000000 0.0000000000"/>
            <mass value="0.016246" />
@@ -498,12 +498,12 @@
           </geometry>
           <material name="interbotix_black"/>
         </visual>
-        <collision>
+        <!-- <collision>
           <origin rpy="0 ${pi} 0" xyz="0 -0.005 0"/>
           <geometry>
             <mesh filename="package://interbotix_xsarm_descriptions/meshes/wx250s_meshes/wx250s_10_gripper_finger.stl" scale="0.001 0.001 0.001"/>
           </geometry>
-        </collision>
+        </collision> -->
         <inertial>
           <origin rpy="0 ${pi} ${pi/2}" xyz="0.0138160000 0.0000000000  0.0000000000"/>
           <mass value="0.016246" />

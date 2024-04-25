@@ -9,14 +9,15 @@ joint_state_publisher:
   topic_name: joint_states
 
 groups:
-  arm: [waist, shoulder, elbow, forearm_roll, wrist_angle, wrist_rotate]
+  arm: [waist, shoulder, elbow, wrist_angle]
+  gripper: [forearm_roll, wrist_rotate, gripper]
 
-grippers:
-  gripper:
-    horn_radius: 0.014
-    arm_length: 0.024
-    left_finger: left_finger
-    right_finger: right_finger
+# grippers:
+#   gripper:
+#     horn_radius: 0.014
+#     arm_length: 0.024
+#     left_finger: left_finger
+#     right_finger: right_finger
 
 shadows:
   shoulder:
